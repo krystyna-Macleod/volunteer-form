@@ -33,3 +33,23 @@ footer {
   color: #fff;
   border-color: #6e8c62;
 }
+
+input {
+  border-color: #6e8c62;
+}
+
+select {
+  border-color: #6e8c62;
+}
+
+textarea {
+  border-color: #6e8c62;
+}
+
+fieldset {
+  border-color: #70ad55;
+}
+
+hr {
+  border-color: #70ad55;
+}
