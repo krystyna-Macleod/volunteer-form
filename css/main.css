@@ -5,6 +5,10 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -text-size-adjust: 100%;
 
   box-sizing: border-box;
   font-family: "Droid Serif", serif;
@@ -12,4 +16,9 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #70ad55;
+  color: #fff;
 }
