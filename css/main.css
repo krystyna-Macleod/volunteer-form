@@ -22,3 +22,14 @@ header {
   background-color: #70ad55;
   color: #fff;
 }
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border-color: #6e8c62;
+}
