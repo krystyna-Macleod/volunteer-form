@@ -21,11 +21,18 @@ html {
 header {
   background-color: #70ad55;
   color: #fff;
+  line-height: 1.5;
 }
 
 footer {
   background-color: #70ad55;
   color: #fff;
+}
+
+.btn2 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2em;
 }
 
 .btn {
@@ -34,22 +41,19 @@ footer {
   border-color: #6e8c62;
 }
 
-input {
-  border-color: #6e8c62;
-}
-
-select {
-  border-color: #6e8c62;
-}
-
-textarea {
-  border-color: #6e8c62;
-}
-
 fieldset {
-  border-color: #70ad55;
+  border: 0;
 }
 
 hr {
   border-color: #70ad55;
+  opacity: .5;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before,
+textarea,
+select,
+input {
+  border-color: #6e8c62;
 }

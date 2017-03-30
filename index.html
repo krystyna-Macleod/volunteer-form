@@ -12,105 +12,104 @@
 </head>
 <body>
 
-  <section class="grid">
+  <section>
 
-    <header class="unit xs-1 s-1 m-1 l-1">
-      <div class="gutter-1-2 pad-t max-length">
-        <h1 class="zetta push-0">Apply to be a tree planter</h1>
-        <p class="tera pad-t-1-4">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    <header>
+      <div class="gutter-1-8 pad-t wrapper pad-b">
+        <h1 class="peta bold gutter-1-4 push-1-2">Apply to be a tree planter</h1>
+        <p class="pad-t-1-4 gutter-1-4 push">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
 
-    <form class="unit xs-1 s-1 m-1 l-1 gutter-1-2 max-length">
+    <form class="gutter-1-8 wrapper">
+      <fieldset>
+        <legend class="giga pad-t bold gutter pad-b">Personal details</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="name">Full name</label>
+            <input id="name" name="name">
+            <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          </div>
 
-      <h2 class="giga pad-t bold">Personal details</h2>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="question">What should we call you?</label>
+            <input id="question">
+            <p class="itlics">What all your friends call you, e.g. “Liz”.</p>
+          </div>
 
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="name">Full name</label>
-        <input id="name" name="name">
-        <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-      </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="date">Date of birth</label>
+            <input type="date" id="date">
+          </div>
 
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="question">What should we call you?</label>
-        <input id="question">
-        <p class="itlics">What all your friends call you, e.g. “Liz”.</p>
-      </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="subject">T-shirt size</label>
+            <select id="subject">
+              <option value="">Select a t-shirt size</option>
+              <option>Fitted: XS</option>
+              <option>Fitted: S</option>
+              <option>Fitted: M</option>
+              <option>Fitted: L</option>
+              <option>Fitted: XL</option>
+              <option>Straight-cut: XS</option>
+              <option>Straight-cut: S</option>
+              <option>Straight-cut: M</option>
+              <option>Straight-cut: L</option>
+              <option>Straight-cut: XL</option>
+            </select>
+          </div>
 
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="date">Date of birth</label>
-        <input type="date" id="date">
-      </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email">
+          </div>
 
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="subject">T-shirt size</label>
-        <select id="subject">
-          <option value="">Select a t-shirt size</option>
-          <option>Fitted: XS</option>
-          <option>Fitted: S</option>
-          <option>Fitted: M</option>
-          <option>Fitted: L</option>
-          <option>Fitted: XL</option>
-          <option>Straight-cut: XS</option>
-          <option>Straight-cut: S</option>
-          <option>Straight-cut: M</option>
-          <option>Straight-cut: L</option>
-          <option>Straight-cut: XL</option>
-        </select>
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="email">Email</label>
-        <input id="email" type="email">
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="tel">Phone number (optional)</label>
-        <input id="tel" type="tel">
-      </div>
-
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="tel">Phone number (optional)</label>
+            <input id="tel" type="tel">
+          </div>
+        </div>
+      </fieldset>
       <hr>
 
-      <h2>Address</h2>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="address">Street address</label>
-        <input id="address">
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="city">City</label>
-        <input id="city">
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="province">Province</label>
-        <select id="province">
-          <option value="">Select a province</option>
-          <option value="">Alberta</option>
-          <option value="">British Columbia</option>
-          <option value="">Manitoba</option>
-          <option value="">New Brunswick</option>
-          <option value="">Newfoundland & Labrador</option>
-          <option value="">Northwest Territories</option>
-          <option value="">Nova Scotia</option>
-          <option value="">Nunavut</option>
-          <option value="">Ontario</option>
-          <option value="">Prince Edward Island</option>
-          <option value="">Québec</option>
-          <option value="">Saskatchewan</option>
-          <option value="">Yukon</option>
-        </select>
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <label for="postal">Postal code</label>
-        <input id="postal">
-      </div>
-
       <fieldset>
-        <legend>
-        </legend>
+        <legend class="giga pad-t bold gutter push-1-2">Address</legend>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="address">Street address</label>
+            <input id="address">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="city">City</label>
+            <input id="city">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="province">Province</label>
+            <select id="province">
+              <option value="">Select a province</option>
+              <option value="">Alberta</option>
+              <option value="">British Columbia</option>
+              <option value="">Manitoba</option>
+              <option value="">New Brunswick</option>
+              <option value="">Newfoundland & Labrador</option>
+              <option value="">Northwest Territories</option>
+              <option value="">Nova Scotia</option>
+              <option value="">Nunavut</option>
+              <option value="">Ontario</option>
+              <option value="">Prince Edward Island</option>
+              <option value="">Québec</option>
+              <option value="">Saskatchewan</option>
+              <option value="">Yukon</option>
+            </select>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <label for="postal">Postal code</label>
+            <input id="postal">
+          </div>
+        </div>
       </fieldset>
 
       <h2 class="push-1-4">What activities are you interested in helping with?</h2>
@@ -283,14 +282,14 @@
         </legend>
       </fieldset>
 
-      <div class="center">
+      <div class="btn2">
         <button class="btn text-center" type="submit">Apply</button>
       </div>
 
     </form>
 
     <footer class="unit xs-1 s-1 m-1 l-1">
-      <div class="gutter-1-2 max-length">
+      <div class="gutter-1-8 max-length">
         <p>© Tree Hugger International Organization</p>
       </div>
     </footer>
