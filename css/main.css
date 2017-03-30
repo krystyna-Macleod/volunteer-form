@@ -48,6 +48,7 @@ fieldset {
 hr {
   border-color: #70ad55;
   opacity: .5;
+  margin: 0 .5em;
 }
 
 input[type="radio"] + label::before,
